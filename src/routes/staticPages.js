@@ -3,7 +3,7 @@ const staticPagesController = require('../app/controllers/StaticPagesController'
 
 const router = express.Router();
 
-router.use('/search', staticPagesController.search);
-router.use('/', staticPagesController.home);
+router.get('/search', staticPagesController.search);
+router.get('/', staticPagesController.home);
 
 module.exports = router;

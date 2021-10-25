@@ -104,3 +104,4 @@ dist
 .tern-port
 
 src/public/css
+src/config/db/index.js

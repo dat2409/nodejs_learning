@@ -19,12 +19,20 @@
   },
   "homepage": "https://github.com/dat2409/nodejs_learning#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.6.1",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.4"
+    "express-handlebars": "^5.3.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.10",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4"
   },
   "devDependencies": {
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.1",
     "morgan": "^1.10.0",
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
   }
 }
