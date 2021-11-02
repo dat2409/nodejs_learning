@@ -11,7 +11,7 @@ const Course = new Schema({
     slug: String,
     videoId: {type: String, required: true},
     level: String,
-    slug: { type: String, slug: "name", unique: true } //slug: "name" => slug được generated từ name
+    slug: { type: String, slug: "name", unique: true } //slug: "name" => slug is generated from name
 }, {
     timestamps: true,
 })
@@ -22,4 +22,4 @@ Course.plugin(mongooseDelete, {
     deletedAt : true,
 });
 
-module.exports = mongoose.model('Course', Course);
+module.exports = mongoose.model('Course', Course); //Tham số thứ nhất là tên gọi model, tham số thứ 2 là Schema
